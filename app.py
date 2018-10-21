@@ -8,7 +8,7 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('newroute')
+@app.route('/newroute')
 def new_route():
     return 'This is a new route'
 
